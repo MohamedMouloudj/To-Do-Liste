@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Josefin Sans";
+    src:url('../Fonts/static/JosefinSans-Regular.ttf');
+    font-weight: 500;
+}
+
+header{
+    width:max-content;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family:'Josefin Sans';
+    margin-top: 40px;
+}

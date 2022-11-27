@@ -1,0 +1,99 @@
+.tasks{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-start;
+        flex-wrap:wrap;
+    }
+.complete{
+    text-decoration: line-through;
+}
+@media screen and (min-width:550px){
+    .p{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align:left;
+        word-break: break-all;
+        width:120vh ;
+    }
+
+    .tsk{
+        background-Color:rgba(202, 202, 202, 0.401);
+        margin:10px 0 0 0;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-Family:'Josefin Sans';
+        padding:3px;
+        border-Radius:5px;
+        box-shadow: 0 0 4px rgba(107, 107, 107, 0.8);
+        align-self: center;
+        min-height: 10vh;
+        line-height: 20px;
+    }
+
+.delete{
+    background-color: rgba(255, 33, 33, 0.658);
+    border:0.5px solid rgb(255, 42, 42);
+    cursor: pointer;
+    border-radius:5px 0 5px 0;
+    color:rgb(37, 37, 37);
+    width: 23px;
+    margin-left: 5px;
+}
+.udiv{
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
+    justify-self: center;
+    margin: 3px 0 3px 0;
+    gap:2px;
+}
+
+}
+
+@media  screen and (max-width:550px) {
+    .p{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+        word-break: break-all;
+        width:35vh
+    }
+
+    .tsk{
+        background-Color:rgba(202, 202, 202, 0.401);
+        margin:10px 0 0 0;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-Family:'Josefin Sans';
+        padding:3px;
+        border-Radius:5px;
+        box-shadow: 0 0 4px rgba(107, 107, 107, 0.8);
+        align-self: center;
+        min-height: 2vh;
+        line-height: 20px;
+    }
+    
+    .delete{
+        background-color: rgba(255, 33, 33, 0.653);
+        border:0.5px solid rgb(255, 42, 42);
+        cursor: pointer;
+        border-radius:5px 0 5px 0;
+        color:rgb(216, 216, 216);
+        width: 23px;
+        margin-left: 5px;
+    }
+    .udiv{
+        display:flex;
+        flex-wrap:nowrap;
+        align-items:center;
+        justify-self: center;
+        gap:2px
+    }
+}

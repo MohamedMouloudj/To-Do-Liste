@@ -1,0 +1,36 @@
+@media  screen and (min-width:550px) {
+    
+#ftr{
+    background-color: rgba(121, 118, 118, 0.475);
+    color:rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px 3px 0 0;
+    margin-top: 10px;
+}
+a{
+    color: rgb(61, 61, 61);
+}
+a:active{
+    color:rgb(88, 88, 88);
+}
+}
+
+@media  screen and (max-width:550px){
+    #ftr{
+        background-color: rgba(121, 118, 118, 0.475);
+        color:rgb(25, 25, 25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px 3px 0 0;
+        margin-top: 10px;
+    }
+    a{
+        color: rgb(61, 61, 61);
+    }
+    a:active{
+        color:rgb(88, 88, 88);
+    }
+}
