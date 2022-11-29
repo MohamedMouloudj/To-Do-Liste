@@ -102,8 +102,8 @@ function addElement(y){
          i++;
         //separating content
         let Udiv=document.createElement('div');
-        Udiv.appendChild(del);
         Udiv.appendChild(checkBox);
+        Udiv.appendChild(del);
         
         //Adding everything
         div.appendChild(Udiv);

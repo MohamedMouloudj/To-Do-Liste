@@ -30,7 +30,6 @@
         border-Radius:5px;
         box-shadow: 0 0 4px rgba(107, 107, 107, 0.8);
         align-self: center;
-        min-height: 10vh;
         line-height: 20px;
     }
 
@@ -76,7 +75,7 @@
         border-Radius:5px;
         box-shadow: 0 0 4px rgba(107, 107, 107, 0.8);
         align-self: center;
-        min-height: 2vh;
+        min-height: 1vh;
         line-height: 20px;
     }
     

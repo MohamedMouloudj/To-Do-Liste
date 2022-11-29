@@ -1,5 +1,5 @@
 
-@media  screen and (min-width:550px) {
+@media  screen and (min-width:700px) {
     
 #ftr{
     background-color: rgba(121, 118, 118, 0.475);
@@ -8,6 +8,8 @@
     align-items: center;
     border-radius: 3px 3px 0 0;
     margin-top: 10px;
+    position:sticky;
+    bottom: 0;
 }
 
 a:active{
@@ -15,14 +17,15 @@ a:active{
 }
 }
 
-@media  screen and (max-width:550px){
+@media  screen and (max-width:700px){
     #ftr{
-        background-color: rgba(121, 118, 118, 0.475);
+        background-color: rgba(63, 63, 63, 0.901);
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 3px 3px 0 0;
-        margin-top: 10px;
+        position:sticky;
+        bottom: 0;
     }
 
     a:active{
