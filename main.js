@@ -30,6 +30,7 @@ add.onclick=function get() {
     } else {
         alert("Please add task");
     }
+    input.value="";
 }
 //Delete one task
 Newdiv.addEventListener("click", (e) =>{  //(e)-->event
